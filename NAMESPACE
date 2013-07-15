@@ -1,0 +1,28 @@
+import( Matrix, Biobase, parallel )
+exportPattern("^[[:alpha:]]+")
+exportMethods(
+              "sparseData",
+              "sparseData<-",
+              "combine",
+              "conditions",
+              "conditions<-",
+              "calculateMeans",
+              "means",
+              "means<-",
+              "sumSquares",
+              "sumSquares<-",
+              "calculateTStats",
+              "tStats",
+              "tStats<-"    
+)
+exportClasses(
+              "SparseDataSet" 
+)
+export(
+       "simulateSparseDataSet",
+       "fillMatrixFromColumn",
+       "sparseCov",
+       "sparseCosine",
+       "sparseEuclid",
+       "applyFunctionSparsely",
+       "sparseThreshold")

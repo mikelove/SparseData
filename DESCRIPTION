@@ -1,0 +1,14 @@
+Package: SparseData
+Type: Package
+Title: Efficient Manipulation of Sparse Experiment Data
+Version: 1.0.0
+Date: 2013-06-28
+Author: Michael Love <love@molgen.mpg.de>
+Maintainer: Michael Love <love@molgen.mpg.de>
+Description: Extends the eSet class for sparse matrices, offering efficient calculation of t-statistics and correlation/distance measures.
+License: GPL (>= 3)
+Depends: Matrix, Biobase (>= 2.14.0), parallel
+Imports: methods
+Suggests: genefilter, RUnit, BiocGenerics
+biocViews: DataRepresentation, HighThroughputSequencing, ChIPseq
+Packaged: 2013-06-26 15:13:08 UTC; mikelove
