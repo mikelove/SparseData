@@ -4,7 +4,7 @@ Title: Efficient Manipulation of Sparse Experiment Data
 Version: 1.0.0
 Date: 2013-06-28
 Author: Michael Love 
-Maintainer: Michael Love 
+Maintainer: Michael Love <michael.removethis.isaiahlove@gmail.com>
 Description: Extends the eSet class for sparse matrices, offering efficient calculation of t-statistics and correlation/distance measures.
 License: GPL (>= 3)
 Depends: Matrix, Biobase (>= 2.14.0), parallel
